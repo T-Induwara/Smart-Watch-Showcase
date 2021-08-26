@@ -1,3 +1,57 @@
 body {
   margin: 0;
+  background-color: rgb(184, 184, 184) !important;
+}
+#watch {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#color-parent {
+  display: flex;
+}
+#color-child-black,
+#color-child-blue,
+#color-child-red,
+#color-child-purple,
+#color-child-rose {
+  flex: 20%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#black-btn,
+#blue-btn,
+#red-btn,
+#purple-btn,
+#rose-btn {
+  margin: auto;
+  width: 60px;
+  height: 45px;
+  border-radius: 15px;
+}
+#black-btn {
+  background-color: black;
+}
+#blue-btn {
+  background-color: blue;
+}
+#red-btn {
+  background-color: red;
+}
+#purple-btn {
+  background-color: purple;
+}
+#rose-btn {
+  background-color: rosybrown;
+}
+@media only screen and (min-width: 375px) {
+  #watch {
+    width: 300px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  #watch {
+    width: 500px;
+  }
 }
