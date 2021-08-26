@@ -8,6 +8,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+/*CSS for color button section begins*/
 #color-parent {
   display: flex;
 }
@@ -17,8 +18,8 @@ body {
 #color-child-purple,
 #color-child-rose {
   flex: 20%;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 #black-btn,
 #blue-btn,
@@ -45,6 +46,35 @@ body {
 #rose-btn {
   background-color: rosybrown;
 }
+/*CSS for color button section ends*/
+
+/*CSS for feature button section begins*/
+#feature-parent {
+  display: flex;
+}
+#feature-child {
+  flex: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#time-btn,
+#heart-btn {
+  margin: auto;
+  width: 120px;
+  height: 60px;
+  border-radius: 15px;
+  background-color: rgb(99, 99, 99);
+}
+/*CSS for feature button section ends*/
+
+/*CSS for final button section begins*/
+#buy-btn {
+  width: 150px;
+  height: 60px;
+  border-radius: 15px;
+  background-color: rgb(230, 115, 63);
+}
+
 @media only screen and (min-width: 375px) {
   #watch {
     width: 300px;
@@ -53,5 +83,13 @@ body {
 @media only screen and (min-width: 1280px) {
   #watch {
     width: 500px;
+  }
+  #time-btn,
+  #heart-btn {
+    margin: auto;
+    width: 250px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: rgb(99, 99, 99);
   }
 }
