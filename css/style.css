@@ -2,11 +2,12 @@ body {
   margin: 0;
   background-color: rgb(231, 231, 231) !important;
 }
-#watch {
-  width: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.watch-band-black {
+  background-image: url("../img/bands/black.png");
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: center center;
+  height: 200px;
 }
 .vertical-center {
   min-height: 100%;
@@ -17,13 +18,13 @@ body {
 /*CSS for color button section begins*/
 #color-parent {
   display: flex;
+  justify-content: flex-start;
 }
 #color-child-black,
 #color-child-blue,
 #color-child-red,
 #color-child-purple,
 #color-child-rose {
-  flex: 20%;
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -72,9 +73,9 @@ body {
 /*CSS for feature button section begins*/
 #feature-parent {
   display: flex;
+  justify-content: flex-start;
 }
 #feature-child {
-  flex: 50%;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -89,7 +90,7 @@ body {
 #heart-btn p {
   color: white;
   font-size: 20px;
-  padding: 20px 0;
+  padding: 10px 0;
   text-align: center;
 }
 #time-btn:hover {
@@ -105,6 +106,7 @@ body {
   width: 150px;
   border-radius: 15px;
   background-color: rgb(228, 135, 92);
+  margin: auto;
 }
 #buy-btn p {
   color: black;
@@ -118,8 +120,12 @@ body {
 
 /*CSS for mobile devices*/
 @media only screen and (min-width: 375px) {
-  #watch {
-    width: 300px;
+  .watch-band-black {
+    background-image: url("../img/bands/black.png");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center center;
+    height: 300px;
   }
   #buy-btn {
     margin: auto;
@@ -128,15 +134,17 @@ body {
 
 /*CSS for laptop or PC devices*/
 @media only screen and (min-width: 1280px) {
-  #watch {
-    width: 500px;
-    display: block;
-    margin-left: -80px;
+  .watch-band-black {
+    background-image: url("../img/bands/black.png");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: center center;
+    height: 500px;
   }
   #time-btn,
   #heart-btn {
     margin: auto;
-    width: 250px;
+    width: 200px;
     border-radius: 15px;
     background-color: rgb(99, 99, 99);
   }

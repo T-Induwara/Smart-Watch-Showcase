@@ -9,3 +9,7 @@ var roseBtn = document.getElementById("rose=btn");
 var timeBtn = document.getElementById("time-btn");
 var heartBtn = document.getElementById("heart-btn");
 var butBtn = document.getElementById("buy-btn");
+
+blackBtn.onclick = function(){
+    alert("You clicked Blacked button!");
+}
