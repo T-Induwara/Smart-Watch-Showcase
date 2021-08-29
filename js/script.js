@@ -12,6 +12,7 @@ var timeBtn = document.getElementById("time-btn");
 var heartBtn = document.getElementById("heart-btn");
 var buyBtn = document.getElementById("buy-btn");
 
+//Codes for button shadows begins
 blackBtn.onmousedown = function(){
    blackBtn.classList.add("btn-shadow"); 
 }
@@ -60,3 +61,20 @@ blueBtn.onmousedown = function(){
  buyBtn.onmouseup = function(){
      buyBtn.classList.remove("btn-shadow");
  }
+ //comments for button shadows ends
+
+ blackBtn.onclick = function(){
+     watchBand.style.backgroundImage = "url('../img/bands/black.png')";
+ }
+ blueBtn.onclick = function(){
+     watchBand.style.backgroundImage = "url('../img/bands/blue.png')";
+ }
+ redBtn.onclick = function(){
+    watchBand.style.backgroundImage = "url('../img/bands/red.png')";
+}
+purpleBtn.onclick = function(){
+    watchBand.style.backgroundImage = "url('../img/bands/purple.png')";
+}
+roseBtn.onclick = function(){
+    watchBand.style.backgroundImage = "url('../img/bands/pink.png')";
+}

@@ -147,36 +147,8 @@ body {
 }
 /*CSS for mobile devices*/
 @media only screen and (min-width: 375px) {
-  .watch-band-black {
+  #band-section {
     background-image: url("../img/bands/black.png");
-    background-repeat: no-repeat;
-    background-size: 300px;
-    background-position: center center;
-    height: 300px;
-  }
-  .watch-band-blue {
-    background-image: url("../img/bands/blue.png");
-    background-repeat: no-repeat;
-    background-size: 300px;
-    background-position: center center;
-    height: 300px;
-  }
-  .watch-band-red {
-    background-image: url("../img/bands/red.png");
-    background-repeat: no-repeat;
-    background-size: 300px;
-    background-position: center center;
-    height: 300px;
-  }
-  .watch-band-purple {
-    background-image: url("../img/bands/purple.png");
-    background-repeat: no-repeat;
-    background-size: 300px;
-    background-position: center center;
-    height: 300px;
-  }
-  .watch-band-pink {
-    background-image: url("../img/bands/pink.png");
     background-repeat: no-repeat;
     background-size: 300px;
     background-position: center center;
@@ -189,36 +161,8 @@ body {
 
 /*CSS for laptop or PC devices*/
 @media only screen and (min-width: 1280px) {
-  .watch-band-black {
+  #band-section {
     background-image: url("../img/bands/black.png");
-    background-repeat: no-repeat;
-    background-size: 500px;
-    background-position: center center;
-    height: 500px;
-  }
-  .watch-band-blue {
-    background-image: url("../img/bands/blue.png");
-    background-repeat: no-repeat;
-    background-size: 500px;
-    background-position: center center;
-    height: 500px;
-  }
-  .watch-band-red {
-    background-image: url("../img/bands/red.png");
-    background-repeat: no-repeat;
-    background-size: 500px;
-    background-position: center center;
-    height: 500px;
-  }
-  .watch-band-purple {
-    background-image: url("../img/bands/purple.png");
-    background-repeat: no-repeat;
-    background-size: 500px;
-    background-position: center center;
-    height: 500px;
-  }
-  .watch-band-pink {
-    background-image: url("../img/bands/pink.png");
     background-repeat: no-repeat;
     background-size: 500px;
     background-position: center center;
