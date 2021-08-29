@@ -3,26 +3,19 @@ body {
   background-color: rgb(231, 231, 231) !important;
 }
 #band-section {
+  display: table-cell;
+  vertical-align: middle;
   background-image: url("../img/bands/black.png");
   background-repeat: no-repeat;
   background-size: 200px;
   background-position: center center;
   height: 200px;
 }
-.watch-band-black {
-  background-image: url("../img/bands/black.png");
-}
-.watch-band-blue {
-  background-image: url("../img/bands/blue.png");
-}
-.watch-band-red {
-  background-image: url("../img/bands/red.png");
-}
-.watch-band-purple {
-  background-image: url("../img/bands/purple.png");
-}
-.watch-band-pink {
-  background-image: url("../img/bands/pink.png");
+#clock {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  width: 200px;
 }
 .vertical-center {
   min-height: 100%;
