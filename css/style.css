@@ -2,40 +2,27 @@ body {
   margin: 0;
   background-color: rgb(231, 231, 231) !important;
 }
-.watch-band-black {
+#band-section {
   background-image: url("../img/bands/black.png");
   background-repeat: no-repeat;
   background-size: 200px;
   background-position: center center;
   height: 200px;
 }
+.watch-band-black {
+  background-image: url("../img/bands/black.png");
+}
 .watch-band-blue {
   background-image: url("../img/bands/blue.png");
-  background-repeat: no-repeat;
-  background-size: 200px;
-  background-position: center center;
-  height: 200px;
 }
 .watch-band-red {
   background-image: url("../img/bands/red.png");
-  background-repeat: no-repeat;
-  background-size: 200px;
-  background-position: center center;
-  height: 200px;
 }
 .watch-band-purple {
   background-image: url("../img/bands/purple.png");
-  background-repeat: no-repeat;
-  background-size: 200px;
-  background-position: center center;
-  height: 200px;
 }
 .watch-band-pink {
   background-image: url("../img/bands/pink.png");
-  background-repeat: no-repeat;
-  background-size: 200px;
-  background-position: center center;
-  height: 200px;
 }
 .vertical-center {
   min-height: 100%;
@@ -70,31 +57,31 @@ body {
   background-color: rgb(34, 34, 34);
 }
 #black-btn:hover {
-  box-shadow: 1px 1px 8px 1px rgb(119, 118, 118);
+  background-color: rgb(77, 77, 77);
 }
 #blue-btn {
   background-color: blue;
 }
 #blue-btn:hover {
-  box-shadow: 1px 1px 8px 1px rgb(119, 118, 118);
+  background-color: rgb(116, 116, 235);
 }
 #red-btn {
   background-color: red;
 }
 #red-btn:hover {
-  box-shadow: 1px 1px 8px 1px rgb(119, 118, 118);
+  background-color: rgb(241, 101, 101);
 }
 #purple-btn {
   background-color: purple;
 }
 #purple-btn:hover {
-  box-shadow: 1px 1px 8px 1px rgb(119, 118, 118);
+  background-color: rgb(146, 87, 146);
 }
 #rose-btn {
   background-color: rosybrown;
 }
 #rose-btn:hover {
-  box-shadow: 1px 1px 8px 1px rgb(119, 118, 118);
+  background-color: rgb(187, 171, 171);
 }
 /*CSS for color button section ends*/
 
@@ -122,10 +109,16 @@ body {
   text-align: center;
 }
 #time-btn:hover {
-  box-shadow: 1px 1px 8px 1px rgb(119, 118, 118);
+  background-color: silver;
+}
+#time-btn p:hover {
+  color: black;
 }
 #heart-btn:hover {
-  box-shadow: 1px 1px 8px 1px rgb(119, 118, 118);
+  background-color: silver;
+}
+#heart-btn p:hover {
+  color: black;
 }
 /*CSS for feature button section ends*/
 
@@ -143,9 +136,15 @@ body {
   text-align: center;
 }
 #buy-btn:hover {
+  background-color: rgb(226, 101, 43);
+}
+#buy-btn p:hover {
+  color: white;
+}
+/*CSS for final button section ends*/
+.btn-shadow {
   box-shadow: 1px 1px 8px 1px rgb(119, 118, 118);
 }
-
 /*CSS for mobile devices*/
 @media only screen and (min-width: 375px) {
   .watch-band-black {

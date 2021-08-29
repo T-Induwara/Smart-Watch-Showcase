@@ -6,18 +6,57 @@ var blackBtn = document.getElementById("black-btn");
 var blueBtn = document.getElementById("blue-btn");
 var redBtn = document.getElementById("red-btn");
 var purpleBtn = document.getElementById("purple-btn");
-var roseBtn = document.getElementById("rose=btn");
+var roseBtn = document.getElementById("rose-btn");
 
 var timeBtn = document.getElementById("time-btn");
 var heartBtn = document.getElementById("heart-btn");
-var butBtn = document.getElementById("buy-btn");
+var buyBtn = document.getElementById("buy-btn");
 
-blackBtn.onclick = function(){
-    alert("You clicked Black button!");
+blackBtn.onmousedown = function(){
+   blackBtn.classList.add("btn-shadow"); 
 }
-blueBtn.onclick = function(){
-    alert("You clicked Blue button!");
-    watchBand.classList.remove=("watch.band-black");
-    watchBand.classList.add=("watch.band.blue");
-
+blackBtn.onmouseup = function(){
+    blackBtn.classList.remove("btn-shadow");
 }
+blueBtn.onmousedown = function(){
+    blueBtn.classList.add("btn-shadow"); 
+ }
+ blueBtn.onmouseup = function(){
+     blueBtn.classList.remove("btn-shadow");
+ }
+ redBtn.onmousedown = function(){
+    redBtn.classList.add("btn-shadow"); 
+ }
+ redBtn.onmouseup = function(){
+     redBtn.classList.remove("btn-shadow");
+ }
+ purpleBtn.onmousedown = function(){
+    purpleBtn.classList.add("btn-shadow"); 
+ }
+ purpleBtn.onmouseup = function(){
+     purpleBtn.classList.remove("btn-shadow");
+ }
+ roseBtn.onmousedown = function(){
+    roseBtn.classList.add("btn-shadow"); 
+ }
+ roseBtn.onmouseup = function(){
+     roseBtn.classList.remove("btn-shadow");
+ }
+ timeBtn.onmousedown = function(){
+    timeBtn.classList.add("btn-shadow"); 
+ }
+ timeBtn.onmouseup = function(){
+     timeBtn.classList.remove("btn-shadow");
+ }
+ heartBtn.onmousedown = function(){
+    heartBtn.classList.add("btn-shadow"); 
+ }
+ heartBtn.onmouseup = function(){
+     heartBtn.classList.remove("btn-shadow");
+ }
+ buyBtn.onmousedown = function(){
+    buyBtn.classList.add("btn-shadow"); 
+ }
+ buyBtn.onmouseup = function(){
+     buyBtn.classList.remove("btn-shadow");
+ }
