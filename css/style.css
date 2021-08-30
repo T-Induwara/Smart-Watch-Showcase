@@ -3,17 +3,19 @@ body {
   background-color: rgb(231, 231, 231) !important;
 }
 #band-section {
-  display: table-cell;
-  vertical-align: middle;
   background-image: url("../img/bands/black.png");
   background-repeat: no-repeat;
   background-size: 200px;
-  background-position: center center;
+  background-position: center;
   height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #clock {
-  display: inline-block;
+  margin: auto;
   text-align: center;
+  font-size: 10px;
   color: white;
   width: 200px;
 }
@@ -147,6 +149,9 @@ body {
     background-position: center center;
     height: 300px;
   }
+  #clock {
+    font-size: 15px;
+  }
   #buy-btn {
     margin: auto;
   }
@@ -160,6 +165,9 @@ body {
     background-size: 500px;
     background-position: center center;
     height: 500px;
+  }
+  #clock {
+    font-size: 25px;
   }
   #time-btn,
   #heart-btn {

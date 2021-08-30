@@ -107,3 +107,4 @@ function currentTime() {
   }
   
   currentTime();
+  //watch face clock codes ends
