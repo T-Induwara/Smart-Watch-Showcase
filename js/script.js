@@ -8,6 +8,9 @@ var redBtn = document.getElementById("red-btn");
 var purpleBtn = document.getElementById("purple-btn");
 var roseBtn = document.getElementById("rose-btn");
 
+var clockUi = document.getElementById("clock");
+var heartBeat = document.getElementById("heart-beat");
+
 var timeBtn = document.getElementById("time-btn");
 var heartBtn = document.getElementById("heart-btn");
 var buyBtn = document.getElementById("buy-btn");
@@ -108,3 +111,17 @@ function currentTime() {
   
   currentTime();
   //watch face clock codes ends
+
+  //watch face clock and heart beat codes starts
+  heartBeat.classList.add("heart-beat-hide");
+
+  timeBtn.onclick = function(){
+    heartBeat.classList.add("heart-beat-hide");
+    clockUi.classList.remove("clock-hide");
+  }
+  heartBtn.onclick = function(){
+      clockUi.classList.add("clock-hide");
+      heartBeat.classList.remove("heart-beat-hide");
+      heartBeat.classList.add("heart-beat-show");
+  }
+  //watch face clock and heart bet codes ends
