@@ -2,6 +2,17 @@ body {
   margin: 0;
   background-color: rgb(231, 231, 231) !important;
 }
+#top-bar {
+  background-color: black !important;
+}
+.logo {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 #band-section {
   background-image: url("../img/bands/black.png");
   background-repeat: no-repeat;
@@ -166,6 +177,16 @@ body {
 .btn-shadow {
   box-shadow: 1px 1px 8px 1px rgb(119, 118, 118);
 }
+.f-text {
+  font-family: "Poiret One", cursive;
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+}
+.f-text a {
+  color: black;
+}
+
 /*CSS for mobile devices*/
 @media only screen and (min-width: 375px) {
   #band-section {
@@ -206,6 +227,11 @@ body {
       width: 60px;
     }
   }
+  .f-text {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
 }
 
 /*CSS for laptop or PC devices*/
@@ -240,5 +266,11 @@ body {
   }
   #buy-btn {
     margin: 0;
+  }
+  .f-text {
+    font-size: 20px;
+    margin-top: -30px;
+    margin-bottom: 100px;
+    text-align: center;
   }
 }
